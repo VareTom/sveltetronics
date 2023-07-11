@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { parallax } from "sveltronics";
+  import { parallax, pinch } from "sveltronics";
 </script>
 
 <main>
-  <div class="card" use:parallax={[500, 10]}>
+  <div class="card" use:parallax={[500, 10]} use:pinch>
     <div class="card__content">
       VareToc
     </div>
