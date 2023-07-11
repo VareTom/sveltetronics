@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <div class="card" use:parallax={[700, 10]}>
+  <div class="card" use:parallax={[500, 10]}>
     <div class="card__content">
       VareToc
     </div>
